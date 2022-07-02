@@ -7,7 +7,7 @@ int main(void)
 {
 	int i;
 	long int l;
-	longvlong int il;
+	long long int il;
 	float d;
 	char c;
 	pritnf("Size of a char: %lu byte(s)\n", sizeof(c));
