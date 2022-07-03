@@ -5,15 +5,15 @@
  */
 int main(void)
 {
-	char ccharacter;
-	int iinteger;
-	long llong;
-	long long llonglong;
-	float dfloat;
-	pritnf("Size of a char: %lu byte(s)\n", sizeof(ccharacter));
-	printf("Size of an int: %lu byte(s)\n", sizeof(iinteger));
-	printf("Size of a long: %lu byte(s)\n", sizeof(llong));
-	printf("Size of a long long: %lu byte(s)\n", sizeof(llonglong));
-	printf("Size of a float: %lu byte(s)\n", sizeof(dfloat));
+	char bcharacter;
+	int binteger;
+	long blong;
+	long long blonglong;
+	float bfloat;
+	pritnf("Size of a char: %lu byte(s)\n", sizeof(bcharacter));
+	printf("Size of an int: %lu byte(s)\n", sizeof(binteger));
+	printf("Size of a long: %lu byte(s)\n", sizeof(blong));
+	printf("Size of a long long: %lu byte(s)\n", sizeof(blonglong));
+	printf("Size of a float: %lu byte(s)\n", sizeof(bfloat));
 	return (0);
 }
