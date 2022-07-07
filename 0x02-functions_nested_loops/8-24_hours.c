@@ -4,7 +4,7 @@
  * Decription: Program to print every minute
  * Return: void
  */
-viod jack_bauer(void)
+void jack_bauer(void)
 {
 	int max_hour, doublenum_hour, singlenum_hour, doublenum_mins, singlenum_mins;
 
