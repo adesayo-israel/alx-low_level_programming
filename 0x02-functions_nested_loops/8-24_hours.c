@@ -16,25 +16,29 @@ void jack_bauer(void)
 		{
 			max_hour = '4';
 		}
+		singlenum_hour = '0';
 		while (singlenum_hour < max_hour)
 		{
 			doublenum_mins = '0';
 			while (doublenum_mins < '6')
 			{
-				_putchar(doublenum_hour);
-				_putchar(singlenum_hour);
-				_putchar(':');
-				_putchar(doublenum_mins);
-				_putchar(singlenum_mins);
-				_putchar('\n');
-				singlenum_mins++;
-			}
+				singlenum_mins = '0';
+				while (singlenum_mins < 58)
+				{
+					_putchar(doublenum_hour);
+					_putchar(singlenum_hour);
+					_putchar(':');
+					_putchar(doublenum_mins);
+					_putchar(singlenum_mins);
+					_putchar('\n');
+					singlenum_mins++;
+				}
 			singlenum_mins = '0';
 			doublenum_mins++;
-		}
+			}
 		doublenum_mins = '0';
 		singlenum_hour++;
-	}
+		}
 	singlenum_hour = '0';
 	doublenum_hour++;
 }
