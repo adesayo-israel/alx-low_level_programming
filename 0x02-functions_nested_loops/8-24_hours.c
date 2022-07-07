@@ -27,13 +27,10 @@ void jack_bauer(void)
 					_putchar('\n');
 					singlenum_mins++;
 				}
-			singlenum_mins = '0';
 			doublenum_mins++;
 			}
-		doublenum_mins = '0';
 		singlenum_hour++;
 		}
-	singlenum_hour = '0';
 	doublenum_hour++;
 	}
 }
