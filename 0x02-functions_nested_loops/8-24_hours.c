@@ -12,6 +12,7 @@ void jack_bauer(void)
 	while (doublenum_hour < '3')
 	{
 		singlenum_hour = '0';
+		while (singlenum_hour < '5')
 		{
 			doublenum_mins = '0';
 			while (doublenum_mins < '7')
