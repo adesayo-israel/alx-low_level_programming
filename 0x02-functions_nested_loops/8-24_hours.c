@@ -6,24 +6,18 @@
  */
 void jack_bauer(void)
 {
-	int max_hour, doublenum_hour, singlenum_hour, doublenum_mins, singlenum_mins;
+	int doublenum_hour, singlenum_hour, doublenum_mins, singlenum_mins;
 
-	max_hour = 58;
 	doublenum_hour = '0';
 	while (doublenum_hour < 3)
 	{
-		if (doublenum_hour == '2')
-		{
-			max_hour = '4';
-		}
 		singlenum_hour = '0';
-		while (singlenum_hour < max_hour)
 		{
 			doublenum_mins = '0';
 			while (doublenum_mins < '6')
 			{
 				singlenum_mins = '0';
-				while (singlenum_mins < 58)
+				while (singlenum_mins < 10)
 				{
 					_putchar(doublenum_hour);
 					_putchar(singlenum_hour);
