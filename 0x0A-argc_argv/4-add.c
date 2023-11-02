@@ -14,12 +14,11 @@
 int check(char no[])
 {
 	int i;
-	int j = strlen(no);
 
-	for (i = 0; i < j; i++)
+	for (i = 0; no[i] != '\0'; i++)
 	{
 		if (!isdigit(no[i]))
-			return (j);
+			return (1);
 	}
 	return (0);
 }
@@ -39,7 +38,7 @@ int main(int argc, char *argv[])
 	int i;
 	int total;
 
-	if (argc == j)
+	if (argc == 1)
 	{
 		printf("0\n");
 	}
