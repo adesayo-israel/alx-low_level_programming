@@ -4,8 +4,8 @@
 
 /**
  * string_nconcat - a function that concatenates two strings.
- * @s1: string 1
- * @s2: string 2
+ * @s1: string one
+ * @s2: string two
  * @n: size of bytes
  * Return: newly allocated space in memory
  * If the function fails, it should return NULL
@@ -24,12 +24,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (n >= len2)
 		n = len2;
 
-	char *rest = malloc(len1 + n + 1);
+	char *result = malloc(len1 + n + 1);
 
-	if (rest == NULL)
+	if (result == NULL)
 		return (NULL);
 
-	char *dest = rest;
+	char *dest = result;
 
 	while (*s1)
 	{
@@ -47,5 +47,5 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 
 	*dest = '\0';
-	return (rest);
+	return (result);
 }
